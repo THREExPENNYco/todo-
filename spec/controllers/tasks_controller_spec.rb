@@ -12,6 +12,13 @@ RSpec.describe TasksController, type: :controller do
       expect(response_value.count).to eq(2)
       
     end 
+    
+    it "should change the task status to done in database" do 
+      task = FactoryBot.create(:task)
+      put :update, params: {id: task.id, task: { done: true }} 
+      task.reload
+      expect(response).to have_http_status(:success)
+    end 
   end 
 
 end
