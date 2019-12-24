@@ -43,7 +43,7 @@ $(function() {
       var htmlString = "";
   
       $.each(data, function(index,  task) {
-        htmlString += taskHtml(task);
+        htmlString += taskHtml(task);  
       });
       var ulTodos = $('.todo-list');
       ulTodos.html(htmlString);
