@@ -75,7 +75,7 @@ $(function() {
   });
 
   function deleteTasks() { 
-    window.addEventListener('beforeunload', () => { 
+    window.addEventListener('beforeunload', function() { 
       $.ajax({ 
         method: "DELETE",
         url: "/tasks/delete"
