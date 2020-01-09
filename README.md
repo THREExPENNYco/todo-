@@ -1,24 +1,13 @@
-# README
+A todo app built with Ruby on Rails in JavaScript. Features a dynamic front-end ui that is changed based of state of objects in database. Additionally, uses AJAX request to send information between database and front end. 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Dependencies: 
+  * jQuery 
+  
+# Installation: 
+Run bundle install in your shell. 
+`bundle install` 
 
-Things you may want to cover:
+# Todo Screenshot 
 
-* Ruby version
+![ToDo Screenshot](https://github.com/THREExPENNYco/todo-/blob/master/todoscreenshot.png)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
