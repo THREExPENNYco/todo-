@@ -5,6 +5,7 @@ A todo app built with Ruby on Rails in JavaScript. Features a dynamic front-end 
   
 # Installation: 
 Run bundle install in your shell. 
+
 `bundle install` 
 
 # Todo Screenshot 
